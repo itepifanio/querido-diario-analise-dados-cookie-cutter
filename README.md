@@ -7,6 +7,7 @@ Inicie suas análises de dados utilizando o [Querido Diário Toolbox](https://gi
 - Python 3.8
 - [Poetry](https://python-poetry.org/docs/)
 - [Tesseract OCR](https://tesseract-ocr.github.io/tessdoc/Compiling-%E2%80%93-GitInstallation.html)
+- Tika e tabula
 
 ### Instalando Python3.8
 
@@ -30,6 +31,13 @@ cd tesseract
 make
 sudo make install
 sudo ldconfig
+```
+
+### Instalando Tika e Tabula
+
+```bash
+chmod u+x instalacao-local.sh
+./instalacao-local.sh
 ```
 
 ## Executando suas análises
